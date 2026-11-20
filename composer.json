@@ -1,6 +1,6 @@
 {
     "name": "phil/doctrine-behaviours",
-    "description": "Doctrine ORM behaviours written as interfaces, traits and listeners: timestamps, blame, soft delete, trees kept as materialized paths, deactivation, owner, publication by workflow, positions within groups, scoped slugs, translations along fallback chains, versions and dated identifiers",
+    "description": "Twelve opt-in behaviours for Doctrine entities, from timestamps, soft delete and trees to positions, slugs, translations and versions.",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -28,6 +28,7 @@
         "doctrine/collections": "^3.1",
         "doctrine/dbal": "^4.5",
         "doctrine/orm": "^3.7",
+        "doctrine/persistence": "^3.3.1 || ^4.0",
         "phil/locale-dimensions": "^0.1@dev",
         "psr/clock": "^1.0",
         "symfony/polyfill-php86": "^1.36"
@@ -60,7 +61,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.2.x-dev"
+            "dev-main": "0.3.x-dev"
         }
     }
 }
